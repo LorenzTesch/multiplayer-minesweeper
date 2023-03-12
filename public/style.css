@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+canvas{
+    border: 1px solid black;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inpContainer{
+
+    padding-top: 30px;
+
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.inpContainer button{
+    height: 40px;
+    border: 0;
+    
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.inpContainer > #btnCreate{
+    width: 100%;
+    margin-bottom: 10px;
+
+    background-color: red;
+}
+
+.inpContainer > #btnJoin{
+    width: 50px;
+    margin-bottom: 10px;
+
+    background-color: lime;
+
+    float: right;
+}
+
+.inpContainer input{
+    height: 40px;
+    width: calc(100% - 50px - 10px);
+
+    float: left;
+
+    outline: none !important;
+}
